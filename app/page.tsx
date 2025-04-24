@@ -5,7 +5,7 @@ import { addTweet } from './actions'; // Import the server action
 export default function HomePage() {
   return (
     <main>
-      <h1>Server Emoji Tweets</h1>
+      <h1>Server Tweets</h1>
 
       {/* Add Tweet Form */}
       <h2>Add New Tweet</h2>
