@@ -1,3 +1,5 @@
+'use server';
+
 import { sql } from '../lib/db';
 import { deleteTweet } from '../actions'; // Import the server action
 
