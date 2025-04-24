@@ -55,7 +55,7 @@ export default function HomePage() {
               minHeight: '50px',
               verticalAlign: 'top',
             }}
-          ></textarea>
+          />
         </div>
         <button
           type="submit"
