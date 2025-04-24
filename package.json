@@ -1,0 +1,30 @@
+{
+  "name": "react-server-components-poc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "setup-db": "node scripts/setup-db.mjs",
+    "lint": "biome lint ./",
+    "format": "biome format --write ./",
+    "check": "biome check --apply ./"
+  },
+  "dependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "better-sqlite3": "^11.9.1",
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "typescript": "^5.8.3"
+  }
+}
